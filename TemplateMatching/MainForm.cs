@@ -59,7 +59,7 @@ namespace TemplateMatching
                 int X = matchings[0].Rectangle.X;
                 int Y = matchings[0].Rectangle.Y;
 
-                g.DrawRectangle(new Pen(Color.Red, 3), X, Y, matchings[0].Rectangle.Width, matchings[0].Rectangle.Height);                
+                g.DrawRectangle(new Pen(Color.HotPink, 20), X, Y, matchings[0].Rectangle.Width, matchings[0].Rectangle.Height);                
                 PicTemplate.Image = sourceImage;
                 MessageBox.Show("Match found...");
             }
